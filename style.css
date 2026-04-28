@@ -556,6 +556,16 @@ input, textarea, select {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
+.product-card__logo {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+.product-card__logo img {
+  width: min(180px, 100%);
+  height: auto;
+}
 .product-card__title {
   font-size: 1.2rem;
   font-weight: 700;
